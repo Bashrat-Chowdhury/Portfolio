@@ -13,7 +13,7 @@ nav {
   }
 
   img {
-    width: 200px; /* Specified width of image*/
+    width: 200px; /* Specified width of images*/
     height: auto; /* Maintain aspect ratio */
   }
   
@@ -52,6 +52,25 @@ nav {
     color: blue;
     transform: scale(1.07);
     transition: transform 0.5s ease;
+  }
+
+  @media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+    .work {
+      display: flex;
+      flex-direction: column;
+    }
   }
   
 
