@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    background-color: rgb(153, 110, 173);
+  }
+  
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
