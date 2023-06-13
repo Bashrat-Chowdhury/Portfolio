@@ -13,8 +13,8 @@ This page was using on HTML and CSS. Several CSS skills such as flexbox, pseudo-
 
 Attached are some screenshot of the deployed webpage!
 ![Browser View](assets/Screenshot%201.png)
-![Responsive View](assets/Screenshot2.png)
-![Hover View](assets/Screenshot%20(4).png
+![Responsive View](assets/responsive.png)
+![Hover View](assets/Screenshot%20(4).png)
 
 ## Credits
 
