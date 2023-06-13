@@ -1,8 +1,10 @@
+/*Added style to nav bar*/
 nav {
     display: flex;
     background-color: rgb(153, 110, 173);
   }
-  
+
+ /*Added style to nav bar element*/
   nav a {
     color: white;
     padding: 14px 20px;
@@ -10,20 +12,19 @@ nav {
     text-align: center;
   }
 
-  .devInfo {
-    flex-direction: row;
-  }
-
   img {
-    width: 200px; /* Specified width of the image*/
+    width: 200px; /* Specified width of image*/
     height: auto; /* Maintain aspect ratio */
   }
   
+  /*Added style to dev info section*/
   .info {
+    flex-direction: row;
+    display: inline-block;
     padding: 10px;
     width: 250px;
     text-align: center;
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
   }
   
@@ -31,6 +32,17 @@ nav {
     padding: 20px;
     background: #13293d;
     color: #fff;
+  }
+
+
+  .application {
+    flex-direction: row;
+    display: inline-block;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
   }
 
  
