@@ -1,8 +1,7 @@
-/* Resets the box size of every element */
+/* Sets the box size of every element */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 15;
+    padding: 15;
   }
   
   /* Gives the body element a parent height to compare against */
@@ -11,8 +10,6 @@
   }
   
   body {
-    min-height: 100%;
-    line-height: 1;
     font-family: sans-serif;
   }
   

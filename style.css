@@ -28,13 +28,14 @@ nav {
     border-width: 1px;
   }
   
+  /*Added style to dev info section header*/
   .info header {
     padding: 20px;
     background: #13293d;
     color: #fff;
   }
 
-
+/*Added style to work section for the application images to stack beside one another*/
   .application {
     flex-direction: row;
     display: inline-block;
@@ -44,5 +45,14 @@ nav {
     border-style: solid;
     border-width: 1px;
   }
+
+  /* Added Hover functionality to enlarge image and add colour */
+  .application:hover {
+    background-color: #d69be4;
+    color: blue;
+    transform: scale(1.07);
+    transition: transform 0.5s ease;
+  }
+  
 
  
